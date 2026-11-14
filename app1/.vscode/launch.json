@@ -1,5 +1,16 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "QA sandbox",
+      "type": "al",
+      "request": "launch",
+      "environmentType": "Sandbox",
+      "environmentName": "QA",
+      "tenant": "ea43ba95-e4d7-4f1f-92f0-b572b4c84543",
+      "startupObjectId": 9305,
+      "breakOnError": "All",
+      "launchBrowser": true
+    }
+  ]
 }
